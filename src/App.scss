@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Ensure body takes full height */
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* custom Classes  */
+
+.f-14 {
+  font-size: 14px !important;
+}
+
+.f-12 {
+  font-size: 12px !important;
+}
+
+.f-16 {
+  font-size: 16px !important;
+}
+
+.f-18 {
+  font-size: 18px !important;
+}
+
+.f-13 {
+  font-size: 13px !important;
+}
+
+.font-weight-600 {
+  font-weight: 600 !important;
+}
+
+.font-weight-500 {
+  font-weight: 500 !important;
+}
+
+.font-weight-400 {
+  font-weight: 400 !important;
+}
+
+.black-color {
+  color: #0E1013 !important;
+}
+
+.light-text {
+  color: #2E333B !important;
+}
+.red-color {
+  color: red !important;
+}
+.error-color {
+  color:#d32f2f !important;
+}
+
+.icon-margin {
+  margin-right: 10px !important;
+}
+
+.pt-0 {
+  padding-top: 0px !important;
+}
+
+.pt-15 {
+  padding-top: 15px !important;
+}
+
+.pt-10 {
+  padding-top: 10px !important;
+}
+
+.pt-5 {
+  padding-top: 5px !important;
+}
+
+.pl-0 {
+  padding-left: 0px !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.justify-center {
+  justify-content: center !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+
+.flex-direction-column {
+  flex-direction: column !important;
+}
+
+// TextField UI 
+.form-control {
+  &.input-group {
+    // background: #F2F4F8 !important;
+    border: 1px solid var(--gray6) !important;
+    border-radius: 10px !important;
+    padding: 2px 0px 2px 0px !important;
+    width: 100%;
+    font-size: var(--font-size-14) !important;
+    margin-top: 7px !important;
+    font-family: var(--font-family) !important;
+    color: #F2F4F8 !important;
+    font-weight: var(--font-weight-400) !important;
+
+    .MuiInputBase-root {
+      padding: 6px 8px !important;
+      border-radius: 10px !important;
+      background-color: #f2f4f8;
+
+      .MuiInputBase-input {
+        padding: 4px 3px !important;
+        color: var(--gray9) !important;
+        font-size: var(--font-size-14) !important;
+        font-weight: var(--font-weight-400) !important;
+
+        //background-color: transparent !important;
+        &::placeholder {
+          color: #2E333B;
+          /* Your desired placeholder color */
+          opacity: 1;
+          /* Make sure the opacity is full */
+        }
+      }
+    }
+
+    &.has-value {
+      .MuiInputBase-root {
+        background-color: #FFFFFF !important;
+      }
+    }
+  }
+}
+
+.Clearicon-issue {
+  position: relative;
+  right: 20px;
+}
+
+// Date Time TextField-css 
+.date-time-css {
+  .MuiInputBase-root {
+    padding: 6px 8px !important;
+    border-radius: 10px !important;
+    background-color: #f2f4f8;
+
+    .MuiInputBase-input {
+      padding: 4px 3px !important;
+      color: var(--gray9) !important;
+      font-size: var(--font-size-14) !important;
+      font-weight: var(--font-weight-400) !important;
+
+      &::placeholder {
+        color: #2E333B;
+        /* Your desired placeholder color */
+        opacity: 1;
+        /* Make sure the opacity is full */
+      }
+
+      //background-color: transparent !important;
+    }
+    &.has-error {
+      .MuiInputBase-root {
+        border-color: 1px solid #d32f2f;
+      }
+    }
+  }
+
+  &.has-value {
+    .MuiInputBase-root {
+      background-color: #FFFFFF !important;
+    }
+  }
+}
+
+
+// ScrollBar Css 
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #D5DBE4;
+}
