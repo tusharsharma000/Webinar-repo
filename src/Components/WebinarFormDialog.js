@@ -22,7 +22,8 @@ const style = {
   width: "60%",  // Adjust as needed
   bgcolor: 'background.paper',
   boxShadow: 24,
-  p: 4,
+  px: 4,
+  py:2,
   borderRadius: '16px',  // Increased border-radius
 };
 
