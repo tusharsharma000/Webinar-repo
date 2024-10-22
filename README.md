@@ -38,9 +38,8 @@ Make sure you have the following installed:
   npm start
   # or
   yarn start
-
+```
 The app will be available at http://localhost:3000.
-
 
 
 ### **Prerequisites**
@@ -59,7 +58,7 @@ webinar-management/
 ├── package.json
 ├── README.md                 # Project documentation
 
-
+```
 
 ### **How to use**
 
